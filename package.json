@@ -1,0 +1,23 @@
+{
+  "name": "calendar-challenge",
+  "version": "1.0.0",
+  "description": "Calendar Challenge",
+  "author": "Jonathan de Flaugergues <jdflaugergues@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "cxs": "^6.1.0",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
