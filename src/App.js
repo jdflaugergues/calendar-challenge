@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
 import {Calendar} from './components/index';
 
+import cxs from 'cxs';
+
 class App extends Component {
+
   render() {
+
+    const appStyle = cxs({
+      textAlign: 'center'
+    });
+
     return (
-      <div className="App">
+      <div className={appStyle}>
         <Calendar {...this.props}/>
       </div>
     );
