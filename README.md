@@ -1,4 +1,4 @@
-#Calendar challenge
+# Calendar challenge
  
 Le but de cet exercice est de *render* des événements sur un seul jour d'un calendrier.
 Le layout du calendrier devra respecter 3 règles :
@@ -17,7 +17,7 @@ Au premier affichage le calendrier doit afficher les événements suivants :
 
 `[ {start: 30, end: 150}, {start: 540, end: 600}, {start: 560, end: 620}, {start: 610, end: 670} ];`
  
-La capture d'écran ci jointe correspond au résultat attendu:
+La capture d'écran ci dessous correspond au résultat attendu:
 ![](./calendar.png )
 
 L'algorithme de layout pour les événements que tu utilises devrait être aussi performant que possible (essaye d'optimiser la complexité en temps).
